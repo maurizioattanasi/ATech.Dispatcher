@@ -1,3 +1,5 @@
+using System.Threading.Tasks;
+
 namespace ATech.Dispatcher;
 
 public interface IRequestHandler<in TRequest>
